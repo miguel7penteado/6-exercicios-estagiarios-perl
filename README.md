@@ -39,3 +39,14 @@ Uma lista separada por espaço (ou dois pontos) de camadas PerlIO. Se o perl for
 Um PERLIO não definido ou vazio é equivalente ao conjunto padrão de camadas para sua plataforma, por exemplo ":unix:perlio" em sistemas do tipo UNIX e ":unix:crlf" no Windows e outros sistemas do tipo DOS.
 
 A lista se torna o padrão para todos os IO do Perl. Conseqüentemente, apenas as camadas internas podem aparecer nesta lista, pois as camadas externas (como :encoding()) precisam de IO para carregá-las!. Consulte "pragma aberto" para saber como adicionar codificações externas como padrão.
+
+```perl
+#!/usr/bin/perl 
+	
+# Módulos usados/carregados
+use strict; 
+use warnings; 
+	
+# Escreva na tela
+print("Teste de perl\n");
+```
