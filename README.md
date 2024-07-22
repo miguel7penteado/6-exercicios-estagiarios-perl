@@ -5,6 +5,25 @@
 
 ### Definindo variáveis de ambiente
 
+#### Linux
+As variáveis de ambiente já vem configuradas após a instalação dos pacotes em praticamente todas as distribuições Linux.
+
+#### windows
+
+No windows, indico você utilizar o arquivo zipado ("instalador zip") e configurar as variáveis de ambiente no braço:
+Crie uma pasta chamada **Perl** e uma subpasta chamada **5.32** dentro do diretório **C:\Program Files**.
+Descompacte o conteúdo do pacote zip dentro de **C:\Program Files\Perl\5.32**
+Supondo que você tenha desempacotado o conteúdo do seu "instalador perl" no diretório **C:\Program Files\Perl\5.32**, comece a definir as variáveis de ambiente:
+
+```cmd
+SET HOME=%USERPROFILE%
+SET PATH=C:\Progra~1\Perl\5.32\perl\bin;C:\Progra~1\Perl\5.32\c\bin;C:\Progra~1\Perl\5.32\c\x86_64-w64-mingw32\bin;C:\Progra~1\Perl\5.32\c\libexec\gcc\x86_64-w64-mingw32\8.3.0;C:\Progra~1\Perl\5.32\c\libexec\gcc\x86_64-w64-mingw32\8.3.0\install-tools;%PATH%
+
+SET PERLLIB=C:\Progra~1\Perl\5.32\perl\lib
+SET PERL5LIB=%PERLLIB%
+SET LOGDIR=%TMP%
+```
+
 1- **HOME**
 
 Usado por funções *chdir* por exemplo.
