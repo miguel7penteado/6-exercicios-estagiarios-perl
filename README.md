@@ -1,6 +1,7 @@
 # 6-exercicios-estagiarios-perl
 >> Noções Básicas de Perl
 
+
 ### Definindo variáveis de ambiente
 
 1- **HOME**
