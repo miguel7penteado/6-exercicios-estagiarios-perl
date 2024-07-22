@@ -90,4 +90,35 @@ print "Operador unário AND: ", $resulto, "\n";
 print "Usando o operador de atribuição de soma: ", $variavel1 += $variavel2, "\n";
 
 ```
+### 2.2- representações de números
+```perl
+#!/usr/bin/perl
 
+# Programa Perl para ilustrar o uso de números
+
+# Número Inteiro
+$NumeroInteiro = 20;
+
+# Número Real
+$NumeroReal = 20.5647;
+
+# Notação Científica
+$NumeroCientifico = 123.5e-10;
+
+# Notação Hexadecimal 
+$NumeroHexadecimal = 0xc;
+
+# Notação Octal
+$NumeroOcatl = 074; 
+
+# Notação Binária 
+$NumeroBinario = 0b1010; 
+
+# IMprimindo os Valores
+print("Este é um número inteiro: ",    $NumeroInteiro,     "\n");
+print("Este é um número real: ",       $NumeroReal,        "\n");
+print("Este é um número científico: ", $NumeroCientifico,  "\n");
+print("Este é um número Hexadecimal:", $NumeroHexadecimal, "\n");
+print("Este é um número Octal:",       $NumeroOcatl,       "\n");
+print("Este é um número Binário: ",    $NumeroBinario,     "\n");
+```
