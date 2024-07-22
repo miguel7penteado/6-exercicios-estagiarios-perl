@@ -146,10 +146,10 @@ Escrevendo caracteres unicode no console do windows:
 ```perl
 use utf8; 
 
-Minha $codificacao = $^O eq 'MSWin32' ? 'cp850' : 'utf8';
+my $codificacao = $^O eq 'MSWin32' ? 'cp850' : 'utf8';
 binmode(STDOUT, ":encoding($codificacao)" );
 
-print "$_\n" para qw/ä ö ü ß Ä Ö Ü/;
+print "$_\n" for qw/ä ö ü ß Ä Ö Ü/;
 
 ```
 
