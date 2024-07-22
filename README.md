@@ -142,4 +142,17 @@ print("Este é um número Octal:",       $NumeroOcatl,       "\n");
 print("Este é um número Binário: ",    $NumeroBinario,     "\n");
 ```
 
+Escrevendo caracteres unicode no console do windows:
+```perl
+use utf8; 
+
+Minha $codificacao = $^O eq 'MSWin32' ? 'cp850' : 'utf8';
+binmode(STDOUT, ":encoding($codificacao)" );
+
+print "$_\n" para qw/ä ö ü ß Ä Ö Ü/;
+
+```
+
+
+
 Fonte: [https://www.geeksforgeeks.org/perl-tutorial-learn-perl-with-examples/](https://www.geeksforgeeks.org/perl-tutorial-learn-perl-with-examples/)
