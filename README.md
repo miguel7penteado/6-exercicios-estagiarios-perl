@@ -23,7 +23,7 @@ SET PERLLIB=C:\Progra~1\Perl\5.32\perl\lib
 SET PERL5LIB=%PERLLIB%
 SET LOGDIR=%TMP%
 ```
-
+#### Qual a funcionalidade de cada uma dessas variáveis no windows
 1- **HOME**
 
 Usado por funções *chdir* por exemplo.
