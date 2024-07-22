@@ -122,3 +122,5 @@ print("Este é um número Hexadecimal:", $NumeroHexadecimal, "\n");
 print("Este é um número Octal:",       $NumeroOcatl,       "\n");
 print("Este é um número Binário: ",    $NumeroBinario,     "\n");
 ```
+
+Fonte: [https://www.geeksforgeeks.org/perl-tutorial-learn-perl-with-examples/](https://www.geeksforgeeks.org/perl-tutorial-learn-perl-with-examples/)
