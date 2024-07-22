@@ -58,7 +58,7 @@ print("Teste de perl\n");
 
 ```perl
 
-# Operands
+# Variáveis
 $variavel1 = 10;
 $variavel2 = 4; 
 $variavel3 = true;
