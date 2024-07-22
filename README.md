@@ -1,6 +1,7 @@
 # 6-exercicios-estagiarios-perl
 >> Noções Básicas de Perl
 
+## 1- Instalação
 
 ### Definindo variáveis de ambiente
 
@@ -51,7 +52,9 @@ use warnings;
 print("Teste de perl\n");
 ```
 
-## Exemplos
+## 2- Exemplos
+
+### 2.1- operadores aritiméticos e lógicos
 
 ```perl
 
