@@ -50,3 +50,41 @@ use warnings;
 # Escreva na tela
 print("Teste de perl\n");
 ```
+
+## Exemplos
+
+```perl
+
+# Operands
+$variavel1 = 10;
+$variavel2 = 4; 
+$variavel3 = true;
+$variavel4 = false;
+    
+# Operações aritiméticas simples:
+print "O resultado da soma é:",      $variavel1 + $variavel2, "\n";
+print "O resultado da subtração é:", $variavel1 - $variavel2, "\n";
+  
+# Operações relacionais e seus operadores:
+if ($variavel1 == $variavel2)
+{
+   print "Operador de igualdade retornando Verdadeiro\n";
+}
+else
+{
+   print "Operador de igualdade retornando Falso\n";
+}
+ 
+# Operações de lógica booleana:
+$resultado = $variavel1 && $variavel2;
+print "Operador AND: ", $resultado, "\n";
+
+# Usando o operador unário AND:
+$resultado = $variavel1 & $variavel2;
+print "Operador unário AND: ", $resulto, "\n";
+
+# Usando operadores de atribuição:
+print "Usando o operador de atribuição de soma: ", $variavel1 += $variavel2, "\n";
+
+```
+
