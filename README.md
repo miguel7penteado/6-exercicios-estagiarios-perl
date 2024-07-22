@@ -3,18 +3,19 @@
 
 ### Definindo variáveis de ambiente
 
-**HOME**
+1- **HOME**
+
 Usado por funções *chdir* por exemplo.
 
-**LOGDIR**
+2- **LOGDIR**
 
 Usado por funções *chdir* has no argument and HOME is not set.
 
-**PATH**
+3- **PATH**
 
 Usado em *subprocessos* em execução, e localização de programas se -S é usado.
 
-**PERL5LIB**
+4- **PERL5LIB**
 
 Uma lista de diretórios nos quais procurar arquivos de biblioteca Perl antes de procurar na biblioteca padrão e no diretório atual. Quaisquer diretórios específicos da arquitetura nos locais especificados são incluídos automaticamente, se existirem (essa pesquisa é feita no momento da inicialização do intérprete).
 
@@ -25,11 +26,11 @@ Ao executar verificações de taint (seja porque o programa estava executando se
 use lib "/my/directory";
 ```
 
-**PERL5OPT**
+5- **PERL5OPT**
 
 Opções de linha de comando (switches). As opções nesta variável são usadas como se estivessem em cada linha de comando Perl. Somente as opções -[CDIMUdmtw] são permitidas. Ao executar verificações de taint (porque o programa estava executando setuid ou setgid, ou a opção -T foi usada), esta variável é ignorada. Se PERL5OPT começar com -T, a contaminação será habilitada e quaisquer opções subsequentes serão ignoradas.
 
-**PERLIO**
+6- **PERLIO**
 
 Uma lista separada por espaço (ou dois pontos) de camadas PerlIO. Se o perl for construído para usar o sistema PerlIO para IO (o padrão), essas camadas afetarão o IO do perl.
 
