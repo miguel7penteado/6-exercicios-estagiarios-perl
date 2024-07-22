@@ -149,7 +149,7 @@ use utf8;
 my $codificacao = $^O eq 'MSWin32' ? 'cp850' : 'utf8';
 binmode(STDOUT, ":encoding($codificacao)" );
 
-print "$_\n" for qw/ä ö ü ß Ä Ö Ü/;
+print "$_ " for qw/á Á à À ã Ã â Â é É ê Ê í Í ó Ó õ Õ ô Ô ú Ú ç Ç/;
 
 ```
 
